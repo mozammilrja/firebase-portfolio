@@ -47,6 +47,8 @@ const Vision = () => {
           </div>
         </div>
       </section> */}
+      
+    
       <section className="page-section" id="services">
         <div className="container">
           <div className="row">
@@ -68,6 +70,9 @@ const Vision = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
                 impedit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
               </p>
             </div>
             <div className="col-md-4">
@@ -80,6 +85,9 @@ const Vision = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
                 impedit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
               </p>
             </div>
             <div className="col-md-4">
@@ -89,6 +97,9 @@ const Vision = () => {
               </span>
               <h4 className="service-heading">Web Security</h4>
               <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                maxime quam architecto quo inventore harum ex magni, dicta
+                impedit.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
                 impedit.
