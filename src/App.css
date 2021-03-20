@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+:root {
+  --primary-white: #fff;
+  --primary: #1B98F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav > li > a {
+  margin-left: 0.705rem;
+  margin-right: 0.705rem;
+  color: var(--primary-white) !important;
+}
+nav a.nav-link {
+  letter-spacing: 0.0575rem;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ------------------------------------------------home----------------------- */
+
+
+.header-img {
+  background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80)
+  fixed  no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg-m-light {
+  background-color: #f2f2f2;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.brand {
+  font-family: Roboto, sans-serif;
+  color: #35bdd0;
+  font-size: 50px;
+}
+
+.main-heading {
+  font-size: 50px;
+  color: #35bdd0;
+  /* color: #35BDD0; */
+}
+
+/* ---------------------vision------------- */
+
+.service-heading {
+  color: #03c6c7;
+}
+.section-heading {
+  color: #03c6c7;
+}
+
+/* footer */
+
+.icon {
+  font-size: 50px;
+  /* color: #20c997; */
+}
+
+/* .form {
+  background-color: #207398;
+} */
+.heading {
+  color: #50dbb4;
+  font-size: 30px;
+}
+
+/* ------------------------------------------------Services----------------------- */
+.services {
+  background: url(https://source.unsplash.com/user/erondu/1600x900)
+  fixed  no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* ------------------------------------------------about----------------------- */
+
+
+.about {
+  background: url(https://images.unsplash.com/photo-1613413561312-e329d024ed65?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDY2fGFldTZyTC1qNmV3fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+  fixed  no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* ------------------------------------------------contact----------------------- */
+
+.contact {
+  background: url(https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Y29udGFjdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+  fixed no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+/* ---------------------------------------React typed Animation------------------------------------------------------------- */
+
+.react-typed{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  font-family:" Roboto Condensed", sans-serif;
+  color: #12B0E8;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.react-typed h1{
+  color: #6851ed;
+  text-transform: uppercase;
+  font-size: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
