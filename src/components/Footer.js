@@ -23,11 +23,15 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </div>
               <div>
+                <Link to="/service">service</Link>
+              </div>
+              <div>
                 <Link to="/about">About</Link>
               </div>
               <div>
                 <Link to="/contact">Contact</Link>
               </div>
+              
             </div>
             <div className="col-md-4">
               <br />

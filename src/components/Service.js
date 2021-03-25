@@ -5,10 +5,8 @@ import Card from "./Card";
 const Service = () => {
   return (
     <div>
-    <div className="services">
-
-
-    <div className="react-typed">
+      <div className="services">
+        <div className="react-typed">
           <br />
           <h1>Welcome to Service section</h1>
           <br />
@@ -28,13 +26,8 @@ const Service = () => {
             loop
           />
         </div>
-
-
-     
-    </div>
+      </div>
       <Card />
-
-     
     </div>
   );
 };
